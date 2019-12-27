@@ -2,29 +2,29 @@
 
 经常做业务的前端同学肯定遇到过这样的业务场景：
 
-##### 常见的 hybird 页面
-<img src="https://github.com/falstack/vue-hybird-best-practices/blob/master/assets/img/h5.png?raw=true">
+##### 常见的 hybrid 页面
+<img src="https://github.com/falstack/vue-hybrid-best-practices/blob/master/assets/img/h5.png?raw=true">
 
 ##### 常见的 UGC 类的 PC 网页
-<img src="https://github.com/falstack/vue-hybird-best-practices/blob/master/assets/img/pc.png?raw=true">
+<img src="https://github.com/falstack/vue-hybrid-best-practices/blob/master/assets/img/pc.png?raw=true">
 
 这类页面都会**承载着多个信息流列表**，本文就针对这类复杂信息流页面进行梳理，给出我在做了无数次这类页面后的最佳实践总结。
 
-你可以直接戳这个地址查看最终 [demo 效果](https://falstack.github.io/vue-hybird-best-practices/)（请在手机模式下浏览）
+你可以直接戳这个地址查看最终 [demo 效果](https://falstack.github.io/vue-hybrid-best-practices/)（请在手机模式下浏览）
 
-<img src="https://github.com/falstack/vue-hybird-best-practices/blob/master/assets/img/qr.png?raw=true">
+<img src="https://github.com/falstack/vue-hybrid-best-practices/blob/master/assets/img/qr.png?raw=true">
 
-demo 的代码仓库：[vue-hybird-best-practices](https://github.com/falstack/vue-hybird-best-practices)
+demo 的代码仓库：[vue-hybrid-best-practices](https://github.com/falstack/vue-hybrid-best-practices)
 
 ### 第一步：我们需要一个 Tab 组件作为承载信息流的容器
 
 这个 tab 组件至少要满足以下两个场景：
 
 ##### 切换 Tab 时的渐变动画
-<img src="https://github.com/falstack/vue-hybird-best-practices/blob/master/assets/img/header.gif?raw=true">
+<img src="https://github.com/falstack/vue-hybrid-best-practices/blob/master/assets/img/header.gif?raw=true">
 
 ##### 滑动时的手指跟随
-<img src="https://github.com/falstack/vue-hybird-best-practices/blob/master/assets/img/content.gif?raw=true">
+<img src="https://github.com/falstack/vue-hybrid-best-practices/blob/master/assets/img/content.gif?raw=true">
 
 因为这些 feature 能够让我们的页面效果尽可能的接近原生，因此专门把它抽象成一个组件：
 
@@ -124,7 +124,7 @@ better-scroll 在 Android 设备上的体验，真的很不好，特别是当页
 我相信很多学习 Vue.js 的同学都看过下面这种图：
 
 ##### 组件化开发：
-<img src="https://github.com/falstack/vue-hybird-best-practices/blob/master/assets/img/component.jpg?raw=true">
+<img src="https://github.com/falstack/vue-hybrid-best-practices/blob/master/assets/img/component.jpg?raw=true">
 
 但在复杂场景下，又有多少人能把代码合理的抽象与组件化呢？
 
