@@ -4,7 +4,7 @@ let GLOBAL_ID = 0
 
 export default new class {
   get (count) {
-    let items = []; let i
+    const items = []; let i
     for (i = 0; i < count; i++) {
       items[i] = {
         id: ++GLOBAL_ID,

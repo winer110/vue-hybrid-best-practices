@@ -23,10 +23,23 @@ module.exports = {
   },
 
   router: {
-    base: '/vue-hybird-best-practices/'
+    base: '/vue-hybrid-best-practices/'
   },
 
   plugins: [
     '~plugins/import.js'
-  ]
+  ],
+
+  build: {
+    babel: {
+      presets: [
+        [
+          '@nuxt/babel-preset-app',
+          {
+            corejs: { version: 3 }
+          }
+        ]
+      ]
+    }
+  }
 }

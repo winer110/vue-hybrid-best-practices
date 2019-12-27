@@ -219,15 +219,14 @@
 
 <script>
 import Waterfall from '../examples/components/Waterfall'
-import SingleList from '../examples/components/SingleList'
 import Recommended from '../examples/components/Recommended'
 import { getCarousel } from '../examples/utils/api'
+// import SingleList from '../examples/components/SingleList'
 
 export default {
   name: 'Index',
   components: {
     Waterfall,
-    SingleList,
     Recommended
   },
   data () {
