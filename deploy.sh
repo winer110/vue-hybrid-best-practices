@@ -19,4 +19,4 @@ git push -f git@github.com:falstack/vue-hybird-best-practices.git master:gh-page
 cd -
 git add -A
 git commit -m 'update'
-git push origin master --force
+git push origin master
